@@ -1,0 +1,117 @@
+.featured-video{
+    width: 100%;
+    position: absolute;
+    height: 806px;
+    margin-left: 157px;
+}
+
+.background-video .background_movie{
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    object-fit: cover;
+}
+
+.movie_content{
+    position: absolute;
+    width: 805px;
+    margin-top: 172px;
+    display: flex;
+    flex-direction: column;
+    height: 331px;
+    color: white;
+    margin: 172px 1126px 479px 0px;
+}
+
+.category{
+    position: absolute;
+    width: 95px;
+    height: 37px;
+    font-family: "Tajawal";
+    font-size: 24px;
+    font-weight: bold;
+    line-height: 42px;
+    font-style: normal;
+    text-align: left;
+    color: #858688;
+}
+
+.movie_title{
+    position: absolute;
+    width: 680px;
+    height: 84px;
+    margin-top: 44px;
+}
+
+.info_movie{
+    position: absolute;
+    width: 246px;
+    height: 42px;
+    margin-top: 148px;
+    font-family: "Tajawal";
+    font-size: 30px;
+    font-weight: normal;
+    line-height: 42px;
+    font-style: normal;
+    text-align: left;
+    color: #f1f1f1;
+}
+
+.about_movie{
+    position: absolute;
+    width: 802px;
+    height: 130px;
+    font-family: "Tajawal";
+    font-size: 32px;
+    font-weight: normal;
+    line-height: 40px;
+    font-style: normal;
+    text-align: left;
+    color: #f1f1f1;
+    margin-top: 201px;
+}
+
+
+.control_btns{
+    position: absolute;
+    width: 498px;
+    height: 72px;
+    margin-top: 529px;
+}
+
+#play{
+    position: absolute;
+    cursor: pointer;
+    width: 240px;
+    height: 72px;
+    border-radius: 40px;
+    background: #f1f1f1;
+    font-family: "Tajawal";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #0c0c0c;
+
+}
+
+#more_info{
+    position: absolute;
+    cursor: pointer;
+    width: 240px;
+    height: 72px;
+    border-radius: 40px;
+    background: #2727f5;
+    background: linear-gradient(159deg, 
+    #2727f5 0.00%, 
+    #001671 100.00%);
+    font-family: "Tajawal";
+    font-size: 32px;
+    font-weight: bold;
+    line-height: 30px;
+    font-style: normal;
+    text-align: center;
+    color: #f1f1f1;
+    margin-left: 258px;
+}

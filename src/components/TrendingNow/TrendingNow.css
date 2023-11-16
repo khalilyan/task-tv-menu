@@ -1,0 +1,45 @@
+.trending_now_container{
+    position: absolute;
+    width: 100%;
+    max-width: 1763px;
+    height: 351px;
+    margin-top: 747px; 
+    margin-left: 160px;
+    overflow: hidden;
+}
+
+.trending_now_container h2{
+    position: absolute;
+    width: 194px;
+    height: 46px;
+    font-family: "Tajawal";
+    font-size: 32px;
+    font-weight: 500;
+    font-style: normal;
+    text-align: left;
+    color: #f1f1f1;
+    
+}
+
+.trending_list{
+   position: relative;
+   margin-top: 55px;
+}
+
+.trending_list ul{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    width: 100%;
+    position: absolute;
+    display: flex;
+    height: 292px;
+}
+
+.trending_list ul::-webkit-scrollbar {
+    display: none;
+}
+
+.trending_item{
+    margin-right: 16px;
+}
